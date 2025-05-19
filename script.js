@@ -3,6 +3,11 @@ const inputChars = "CDGHJLMPQRTVWXYZ23456789";
 const maxIndex = (inputChars.length - 1);
 
 
+// access document elements
+let generateBn = document.querySelector("#generate");
+let codeText = document.querySelector("#code");
+
+
 // generates code from character set
 function generateCode() {
 
@@ -24,10 +29,11 @@ function generateCode() {
 }
 
 
-function main() {
+function writeCode() {
     let newCode = generateCode();
     console.log(newCode);
+    codeText.value = newCode;
 }
 
-
-main();
+// TODO: add event listener
+writeCode();
