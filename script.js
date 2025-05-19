@@ -4,7 +4,7 @@ const maxIndex = (inputChars.length - 1);
 
 
 // access document elements
-let generateBn = document.querySelector("#generate");
+let generateBtn = document.querySelector("#generate");
 let codeText = document.querySelector("#code");
 
 
@@ -35,5 +35,5 @@ function writeCode() {
     codeText.value = newCode;
 }
 
-// TODO: add event listener
-writeCode();
+// generate and write code on button click
+generateBtn.addEventListener("click", writeCode);
