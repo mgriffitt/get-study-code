@@ -108,7 +108,8 @@ button[disabled] {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 85px;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
+  font-size: xxx-large;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -126,7 +127,9 @@ button[disabled] {
   }
 
   #code {
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: xxx-large;
+
   }
 }
 
